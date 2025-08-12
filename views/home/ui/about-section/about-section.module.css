@@ -1,0 +1,27 @@
+.root {
+  position: relative;
+  padding-block: 6vw;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  gap: 2vw;
+}
+
+.title {
+  position: sticky;
+  top: 50%;
+  font-size: 70px;
+  font-weight: 700;
+  height: min-content;
+  width: fit-content;
+  text-align: right;
+}
+
+.subtitle {
+  display: block;
+}
