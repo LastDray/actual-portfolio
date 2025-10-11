@@ -1,29 +1,40 @@
 .root {
-  position: relative;
-  padding-block-start: 6vw;
-  height: 100vh;
+	position: relative;
+	height: 100vh;
+	padding-block-start: 6vw;
 }
 
 .title,
 .subtitle {
-  /* @mixin responsive font-size, 70, 40; */
+	@mixin responsive font-size, 30, 70;
 
-  pointer-events: none;
-  max-width: 60vw;
-  position: relative;
-  z-index: 1;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 1.1;
+	pointer-events: none;
+
+	position: relative;
+	z-index: 1;
+
+	max-width: 60vw;
+
+	font-weight: 700;
+	line-height: 1.1;
+
+	@media (max-width: $mobile) {
+		max-width: 100%;
+	}
 }
 
 .title {
-  margin-block-end: 10px;
+	margin-block-end: 10px;
 }
 
 .subtitle {
-  font-size: 30px;
-  font-weight: 500;
-  max-width: 50vw;
-  line-height: 1.3;
+	@mixin responsive font-size, 20, 30;
+
+	max-width: 50vw;
+	font-weight: 500;
+	line-height: 1.3;
+
+	@media (max-width: $mobile) {
+		max-width: 100%;
+	}
 }

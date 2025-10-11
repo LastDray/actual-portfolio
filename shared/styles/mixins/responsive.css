@@ -1,0 +1,14 @@
+/*
+ * @copyright Copyright (c) 2025, Oleg Chulakov Studio
+ * @link https://chulakov.ru
+ */
+
+/* Файл с миксинами для динамического расчета размеров элементов */
+
+@define-mixin responsive $property, $mobile-size, $desktop-size {
+	$(property): calc($(desktop-size)rem / $desktop-scale-factor);
+
+	@media (max-width: $mobile) {
+		$(property): calc($(mobile-size)rem / $mobile-scale-factor);
+	}
+}

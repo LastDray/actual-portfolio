@@ -1,4 +1,3 @@
-html,
 body,
 div,
 span,
@@ -79,19 +78,19 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 article,
@@ -105,75 +104,75 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+	display: block;
 }
 
 body {
-  line-height: 1;
+	line-height: 1;
 }
 
 ol,
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+	quotes: none;
 }
 
 blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: none;
+	content: none;
 }
 
 table {
-  border-spacing: 0;
-  border-collapse: collapse;
+	border-spacing: 0;
+	border-collapse: collapse;
 }
 
 button {
-  cursor: pointer;
+	cursor: pointer;
 
-  overflow: visible;
+	overflow: visible;
 
-  width: auto;
-  margin: 0;
-  padding: 0;
-  border: none;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: none;
 
-  font: inherit;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  line-height: normal;
-  color: inherit;
+	font: inherit;
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+	line-height: normal;
+	color: inherit;
 
-  appearance: none;
-  background: transparent;
-  outline: none;
+	appearance: none;
+	background: transparent;
+	outline: none;
 }
 
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+	padding: 0;
+	border: 0;
 }
 
 input,
 select,
 textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
 }
 
 button,
 input {
-  overflow: visible;
+	overflow: visible;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }

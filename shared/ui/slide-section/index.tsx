@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import { FC, useEffect, useRef } from "react";
 import styles from "./slide-section.module.css";
 
 interface SlideSectionProps {
@@ -8,7 +8,7 @@ interface SlideSectionProps {
   content: string;
 }
 
-const SlideSection: React.FC<SlideSectionProps> = ({ title, content }) => {
+const SlideSection: FC<SlideSectionProps> = ({ title, content }) => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
