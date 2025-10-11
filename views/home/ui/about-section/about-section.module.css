@@ -1,53 +1,68 @@
 .root {
-  position: relative;
-  padding-block: 6vw;
+	position: relative;
+	padding-block: 6vw;
 }
 
 .skills,
 .wrapper {
-  position: relative;
-  z-index: 2;
+	position: relative;
+	z-index: 2;
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  justify-content: space-between;
-  pointer-events: none;
-  gap: 2vw;
+	pointer-events: none;
+
+	display: grid;
+	grid-template-columns: 1fr 1.5fr;
+	gap: 2vw;
+	justify-content: space-between;
+
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+	}
 }
 
 .title {
-  position: sticky;
-  top: 50%;
-  font-size: 70px;
-  font-weight: 700;
-  height: min-content;
-  width: fit-content;
-  text-align: right;
-  justify-self: flex-end;
+	@mixin responsive font-size, 40, 70;
+
+	position: sticky;
+	top: 50%;
+
+	justify-self: flex-end;
+
+	width: fit-content;
+	height: min-content;
+
+	font-weight: 700;
+	text-align: right;
+
+	@media (max-width: $mobile) {
+		display: none;
+	}
 }
 
-.marcueTitle {
-  font-size: 70px;
-  font-weight: 700;
+.marqueTitle {
+	@mixin responsive font-size, 40, 70;
 
-  margin-block-end: 3vw;
+	margin-block-end: 3vw;
+	font-weight: 700;
 }
 
 .subtitle {
-  display: block;
+	display: block;
 }
 
 .skills {
-  margin-block-start: 12vw;
-  pointer-events: none;
+	pointer-events: none;
+	margin-block-start: 12vw;
 }
 
-.marcue {
-  gap: 20px;
+.marque {
+	gap: 20px;
 }
 
 .image {
-  border-radius: 10px;
+	@media (max-width: $mobile) {
+		height: 256px;
+	}
 }
