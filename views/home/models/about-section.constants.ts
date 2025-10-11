@@ -57,3 +57,15 @@ export const RANGE_CONTENT_VALUE = {
   "75-76": "16 месяцев",
   "77-100": "",
 };
+
+export const MARQUEE_IMAGES = [
+  "/assets/icons/1.png",
+  "/assets/icons/2.png",
+  "/assets/icons/3.png",
+  "/assets/icons/4.png",
+  "/assets/icons/5.png",
+  "/assets/icons/6.png",
+  "/assets/icons/7.png",
+  "/assets/icons/8.png",
+  "/assets/icons/9.png",
+];

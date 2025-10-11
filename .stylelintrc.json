@@ -1,0 +1,32 @@
+{
+	"extends": ["stylelint-config-standard", "stylelint-config-clean-order"],
+
+	"plugins": [
+		"stylelint-order",
+		"stylelint-declaration-block-no-ignored-properties"
+	],
+
+	"rules": {
+		"declaration-empty-line-before": null,
+		"block-no-empty": true,
+		"color-no-invalid-hex": true,
+		"declaration-block-no-duplicate-properties": true,
+		"declaration-block-no-shorthand-property-overrides": true,
+		"max-nesting-depth": 3,
+		"no-duplicate-selectors": true,
+		"selector-max-id": 1,
+		"custom-property-pattern": null,
+		"media-feature-range-notation": null,
+		"at-rule-no-unknown": null,
+		"import-notation": "string",
+		"media-query-no-invalid": null,
+		"selector-class-pattern": null,
+		"no-descending-specificity": null,
+		"selector-pseudo-class-no-unknown": [
+			true,
+			{
+				"ignorePseudoClasses": ["global"]
+			}
+		]
+	}
+}

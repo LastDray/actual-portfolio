@@ -6,6 +6,8 @@
 
 .title,
 .subtitle {
+  /* @mixin responsive font-size, 70, 40; */
+
   pointer-events: none;
   max-width: 60vw;
   position: relative;

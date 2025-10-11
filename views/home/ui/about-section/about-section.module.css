@@ -3,10 +3,15 @@
   padding-block: 6vw;
 }
 
+.skills,
 .wrapper {
   position: relative;
   z-index: 2;
-  display: flex;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
   justify-content: space-between;
   pointer-events: none;
   gap: 2vw;
@@ -20,8 +25,29 @@
   height: min-content;
   width: fit-content;
   text-align: right;
+  justify-self: flex-end;
+}
+
+.marcueTitle {
+  font-size: 70px;
+  font-weight: 700;
+
+  margin-block-end: 3vw;
 }
 
 .subtitle {
   display: block;
+}
+
+.skills {
+  margin-block-start: 12vw;
+  pointer-events: none;
+}
+
+.marcue {
+  gap: 20px;
+}
+
+.image {
+  border-radius: 10px;
 }
