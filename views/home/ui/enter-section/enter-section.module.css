@@ -1,7 +1,11 @@
 .root {
 	position: relative;
+	z-index: 2;
+
 	height: 100vh;
 	padding-block-start: 6vw;
+
+	background-color: black;
 }
 
 .title,

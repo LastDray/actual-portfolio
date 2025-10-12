@@ -1,18 +1,15 @@
-import SlideSection from "@/shared/ui/slide-section";
-import { AboutSection } from "./ui/about-section";
-import { EnterSection } from "./ui/enter-section";
-import { SkillSection } from "./ui/skill-section";
+'use client';
+
+import { FooterSection } from '@/views/home/ui/footer-section';
+import { AboutSection } from './ui/about-section';
+import { EnterSection } from './ui/enter-section';
 
 export const HomePage = () => {
-  return (
-    <main>
-      <EnterSection />
-      <AboutSection />
-      <SkillSection />
-      <SlideSection
-        title="Первая секция"
-        content="Это пример секции, которая выезжает из-под предыдущей при скролле."
-      />
-    </main>
-  );
+	return (
+		<main>
+			<EnterSection />
+			<AboutSection />
+			<FooterSection />
+		</main>
+	);
 };
