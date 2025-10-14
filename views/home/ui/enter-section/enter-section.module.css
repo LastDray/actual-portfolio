@@ -18,12 +18,39 @@
 	z-index: 1;
 
 	max-width: 60vw;
+	padding-block-end: 3vw;
 
 	font-weight: 700;
 	line-height: 1.1;
 
 	@media (max-width: $mobile) {
 		max-width: 100%;
+	}
+}
+
+.button {
+	@mixin responsive padding-block, 8, 12;
+	@mixin responsive padding-inline, 16, 24;
+	@mixin responsive font-size, 30, 70;
+	@mixin responsive --border-width, 1, 1;
+
+	position: relative;
+	z-index: 1;
+
+	border: var(--border-width) solid white;
+	border-radius: 20px;
+
+	font-weight: 500;
+
+	transition:
+		color 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+		background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+	@media (hover: hover) {
+		&:hover {
+			color: black;
+			background-color: white;
+		}
 	}
 }
 

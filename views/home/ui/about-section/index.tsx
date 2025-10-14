@@ -15,10 +15,13 @@ import { useRef } from 'react';
 import { getRangeContent } from '../../lib/get-range-content';
 import parser from 'html-react-parser';
 import { Marque } from '@/shared/ui/marque';
+import { useMediaQuery } from '@/shared/hooks/use-media-query';
 
 export const AboutSection = () => {
 	const containerRef = useRef<HTMLDivElement>(null);
 	const scrollPercentage = useScroll(containerRef);
+
+	const isMobile = useMediaQuery('(max-width: 768px)');
 
 	return (
 		<section className={css.root}>
@@ -36,9 +39,10 @@ export const AboutSection = () => {
 			</div>
 			<div className={clsx(css.skills)}>
 				<h2 className={clsx(css.marqueTitle, 'container')}>Навыки</h2>
-				<Marque speed={500} gap={10}>
+				<Marque speed={isMobile ? 300 : 500} gap={10}>
 					{MARQUEE_IMAGES.map(image => {
 						return (
+							// eslint-disable-next-line @next/next/no-img-element
 							<img className={css.image} key={image} src={image} alt="icon" />
 						);
 					})}
