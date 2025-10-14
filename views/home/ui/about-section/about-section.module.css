@@ -63,9 +63,11 @@
 }
 
 .image {
-	height: 512px;
+	img {
+		height: 512px;
 
-	@media (max-width: $mobile) {
-		height: 256px;
+		@media (max-width: $mobile) {
+			height: 256px;
+		}
 	}
 }
