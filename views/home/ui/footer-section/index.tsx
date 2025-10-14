@@ -66,9 +66,8 @@ export const FooterSection = () => {
 							<span className={css.skill}>React</span>
 							<span className={css.skill}>Next.js</span>
 							<span className={css.skill}>TypeScript</span>
-							<span className={css.skill}>JavaScript</span>
 							<span className={css.skill}>HTML/CSS</span>
-							<span className={css.skill}>Sass/SCSS</span>
+							<span className={css.skill}>PostCSS</span>
 						</div>
 					</div>
 

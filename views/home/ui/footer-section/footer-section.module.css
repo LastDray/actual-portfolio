@@ -86,7 +86,6 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 4vw;
-	margin-block-end: 4vw;
 
 	@media (max-width: $mobile) {
 		grid-template-columns: 1fr;
