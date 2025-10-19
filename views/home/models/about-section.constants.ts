@@ -1,3 +1,5 @@
+import { REPO_NAME } from '@/shared/config/project.contants';
+
 export const TIMELINE_DATA = [
 	{
 		title: 'Learner',
@@ -61,109 +63,109 @@ export const RANGE_CONTENT_VALUE = {
 export const MARQUEE_IMAGES = [
 	{
 		original: {
-			src: '/assets/icons/1.png',
+			src: `${REPO_NAME}/assets/icons/1.png`,
 		},
 		webp: {
-			src: '/assets/icons/1.webp',
+			src: `${REPO_NAME}/assets/icons/1.webp`,
 		},
 		avif: {
-			src: '/assets/icons/1.avif',
+			src: `${REPO_NAME}/assets/icons/1.avif`,
 		},
 		alt: 'webpack logo',
 	},
 	{
 		original: {
-			src: '/assets/icons/2.png',
+			src: `${REPO_NAME}/assets/icons/2.png`,
 		},
 		webp: {
-			src: '/assets/icons/2.webp',
+			src: `${REPO_NAME}/assets/icons/2.webp`,
 		},
 		avif: {
-			src: '/assets/icons/2.avif',
+			src: `${REPO_NAME}/assets/icons/2.avif`,
 		},
 		alt: 'postcss logo',
 	},
 	{
 		original: {
-			src: '/assets/icons/3.png',
+			src: `${REPO_NAME}/assets/icons/3.png`,
 		},
 		webp: {
-			src: '/assets/icons/3.webp',
+			src: `${REPO_NAME}/assets/icons/3.webp`,
 		},
 		avif: {
-			src: '/assets/icons/3.avif',
+			src: `${REPO_NAME}/assets/icons/3.avif`,
 		},
-		alt: 'react logo',
+		alt: `react logo`,
 	},
 	{
 		original: {
-			src: '/assets/icons/4.png',
+			src: `${REPO_NAME}/assets/icons/4.png`,
 		},
 		webp: {
-			src: '/assets/icons/4.webp',
+			src: `${REPO_NAME}/assets/icons/4.webp`,
 		},
 		avif: {
-			src: '/assets/icons/4.avif',
+			src: `${REPO_NAME}/assets/icons/4.avif`,
 		},
-		alt: 'prettier logo',
+		alt: `prettier logo`,
 	},
 	{
 		original: {
-			src: '/assets/icons/5.png',
+			src: `${REPO_NAME}/assets/icons/5.png`,
 		},
 		webp: {
-			src: '/assets/icons/5.webp',
+			src: `${REPO_NAME}/assets/icons/5.webp`,
 		},
 		avif: {
-			src: '/assets/icons/5.avif',
+			src: `${REPO_NAME}/assets/icons/5.avif`,
 		},
-		alt: 'eslint logo',
+		alt: `eslint logo`,
 	},
 	{
 		original: {
-			src: '/assets/icons/6.png',
+			src: `${REPO_NAME}/assets/icons/6.png`,
 		},
 		webp: {
-			src: '/assets/icons/6.webp',
+			src: `${REPO_NAME}/assets/icons/6.webp`,
 		},
 		avif: {
-			src: '/assets/icons/6.avif',
+			src: `${REPO_NAME}/assets/icons/6.avif`,
 		},
-		alt: 'axios logo',
+		alt: `axios logo`,
 	},
 	{
 		original: {
-			src: '/assets/icons/7.png',
+			src: `${REPO_NAME}/assets/icons/7.png`,
 		},
 		webp: {
-			src: '/assets/icons/7.webp',
+			src: `${REPO_NAME}/assets/icons/7.webp`,
 		},
 		avif: {
-			src: '/assets/icons/7.avif',
+			src: `${REPO_NAME}/assets/icons/7.avif`,
 		},
-		alt: 'react query logo',
+		alt: `react query logo`,
 	},
 	{
 		original: {
-			src: '/assets/icons/8.png',
+			src: `${REPO_NAME}/assets/icons/8.png`,
 		},
 		webp: {
-			src: '/assets/icons/8.webp',
+			src: `${REPO_NAME}/assets/icons/8.webp`,
 		},
 		avif: {
-			src: '/assets/icons/8.avif',
+			src: `${REPO_NAME}/assets/icons/8.avif`,
 		},
-		alt: 'typescript logo',
+		alt: `typescript logo`,
 	},
 	{
 		original: {
-			src: '/assets/icons/9.png',
+			src: `${REPO_NAME}/assets/icons/9.png`,
 		},
 		webp: {
-			src: '/assets/icons/9.webp',
+			src: `${REPO_NAME}/assets/icons/9.webp`,
 		},
 		avif: {
-			src: '/assets/icons/9.avif',
+			src: `${REPO_NAME}/assets/icons/9.avif`,
 		},
 		alt: 'nextjs logo',
 	},

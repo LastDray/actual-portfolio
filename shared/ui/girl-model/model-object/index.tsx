@@ -14,6 +14,7 @@ import {
 	MOUSE_SENSITIVITY_Y,
 	ROTATION_LERP_FACTOR,
 } from '@/shared/models/girl-model.constants';
+import { REPO_NAME } from '@/shared/config/project.contants';
 
 interface ModelObjectProps {
 	position?: number[];
@@ -23,7 +24,7 @@ interface ModelObjectProps {
 export const ModelObject = (props?: ModelObjectProps) => {
 	const isMobile = useMediaQuery(`(max-width: ${MOBILE_BREAKPOINT}px)`);
 
-	const { scene, animations } = useGLTF('/mita-animate-70.glb');
+	const { scene, animations } = useGLTF(`${REPO_NAME}/mita-animate-70.glb`);
 	const ref = useRef();
 	const { actions } = useAnimations(animations, ref);
 
