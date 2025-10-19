@@ -2,6 +2,8 @@
 	position: relative;
 	z-index: 2;
 
+	overflow: hidden;
+
 	height: 100vh;
 	padding-block-start: 6vw;
 
